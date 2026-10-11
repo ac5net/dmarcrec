@@ -1,0 +1,115 @@
+# dns.google (DoH) で 2026-10-12 に取得した TXT 応答。形式: 名前 | Status | AD(1/0) | TXT1 || TXT2
+# Status 3 = NXDOMAIN、TXT 空 = NOERROR/NODATA
+_dmarc.google.com | 0 | 0 | v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+_dmarc.microsoft.com | 0 | 0 | v=DMARC1; p=reject; pct=100; rua=mailto:itex-rua@microsoft.com; ruf=mailto:itex-ruf@microsoft.com; fo=1
+_dmarc.apple.com | 0 | 0 | v=DMARC1; p=quarantine; sp=reject; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+_dmarc.amazon.com | 0 | 0 | v=DMARC1;p=quarantine;pct=100;rua=mailto:report@dmarc.amazon.com;ruf=mailto:report@dmarc.amazon.com
+_dmarc.cloudflare.com | 0 | 1 | v=DMARC1; p=reject; sp=reject; adkim=r; aspf=r; pct=100; rua=mailto:a1c47f179bc04efd8ee4dcd4d85dfc65@dmarc-reports.cloudflare.net,mailto:rua@cloudflare.com
+_dmarc.github.com | 0 | 0 | v=DMARC1; p=quarantine; sp=reject; pct=100; rua=mailto:dmarc@github.com; ruf=mailto:dmarc@github.com; fo=1
+_dmarc.salesforce.com | 0 | 1 | v=DMARC1;p=reject;fo=1:d:s;pct=100;rua=mailto:dmarc_agg@vali.email,mailto:0e5a5c34@inbox.ondmarc.com;ruf=mailto:0e5a5c34@inbox.ondmarc.com
+_dmarc.zoom.us | 0 | 0 | v=DMARC1;p=reject;ri=3600;rua=mailto:sesbounce@zoom.us,mailto:dmarc_rua@emaildefense.proofpoint.com;
+_dmarc.slack.com | 0 | 1 | v=DMARC1;p=reject;fo=1:d:s;pct=100;rua=mailto:dmarc_agg@vali.email,mailto:0e5a5c34@inbox.ondmarc.com;ruf=mailto:0e5a5c34@inbox.ondmarc.com
+_dmarc.okta.com | 0 | 0 | v=DMARC1; p=reject; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:bt_dmarc_monitor@okta.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com,mailto:bt_dmarc_monitor@okta.com;
+_dmarc.cybozu.com | 0 | 0 | v=DMARC1; p=reject; pct=100; rua=mailto:e33d8e269d@rua.easydmarc.asia
+_dmarc.yahoo.co.jp | 0 | 0 | v=DMARC1; p=quarantine; rua=mailto:ymail_dmarc_report@yahoo.co.jp
+_dmarc.softbank.jp | 3 | 0 |
+_dmarc.mufg.jp | 0 | 1 | v=DMARC1; p=reject; sp=quarantine; rua=mailto:mufg00001-ra@dmarc25.jp,mailto:dm0migwuxfg32.rua@dp.smtps.jp
+_dmarc.smbc.co.jp | 0 | 1 | v=DMARC1;p=reject;pct=100;fo=1;ri=86400;rua=mailto:dmarc-rua@report.securemx.jp
+_dmarc.ana.co.jp | 0 | 0 | v=DMARC1; p=none; rua=mailto:snlg4nb3z0@rua.powerdmarc.com; ruf=mailto:snlg4nb3z0@ruf.powerdmarc.com; fo=1;
+_dmarc.jal.co.jp | 0 | 0 | v=DMARC1; p=reject; fo=1; rua=mailto:rua000000157-9tli357g1@bmscore.jp, mailto:dmarc_rua@jal.co.jp; ruf=mailto:ruf000000157-8r44nzy3x@bmscore.jp, mailto:dmarc_ruf@jal.co.jp
+_dmarc.rakuten.co.jp | 0 | 0 | v=DMARC1; p=reject; rua=mailto:dmarc-report-a@rx.rakuten.co.jp
+_dmarc.freee.co.jp | 0 | 0 | v=DMARC1; p=quarantine; pct=100; rua=mailto:psirt@freee.co.jp; ruf=mailto:psirt+fail@freee.co.jp; fo=s
+_dmarc.sakura.ad.jp | 0 | 0 | v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc-rua-ml@sakura.ad.jp, mailto:l0vd6oeqkz@rua.powerdmarc.com; ruf=mailto:dmarc-ruf-ml@sakura.ad.jp, mailto:l0vd6oeqkz@ruf.powerdmarc.com; fo=1
+_dmarc.biglobe.ne.jp | 0 | 0 | v=DMARC1; p=quarantine; rua=mailto:dmarc-bcs.pj@gp.biglobe.co.jp,mailto:biglobe00001-ra@dmarc25.jp
+_dmarc.ocn.ne.jp | 3 | 0 |
+_dmarc.so-net.ne.jp | 0 | 0 | v=DMARC1; p=reject; ri=14400; rua=mailto:dmarc-rua@so-net.ne.jp
+_dmarc.line.me | 0 | 0 | v=DMARC1; p=none; fo=s; rua=mailto:dl_dmarc@linecorp.com; pct=100
+_dmarc.japanpost.jp | 0 | 0 | v=DMARC1; p=reject; pct=100; ri=86400; rua=mailto:hazab6b0wr@rua.powerdmarc.com
+_dmarc.kddi.com | 0 | 0 | v=DMARC1; p=quarantine; rua=mailto:kddi00001-ra@dmarc25.jp,mailto:report_dmarc_rua.ez@ezweb.ne.jp
+_dmarc.mercari.com | 0 | 0 | v=DMARC1; p=reject; rua=mailto:dmarc_agg@vali.email
+_dmarc.moneyforward.com | 0 | 0 | v=DMARC1; p=reject; rua=mailto:buoykrijqi@rua.powerdmarc.com; ruf=mailto:buoykrijqi@ruf.powerdmarc.com; fo=1;
+_dmarc.nifty.com | 0 | 0 | v=DMARC1; p=none; pct=100; rua=mailto:dmarc-rua-com@nifty.com,mailto:postmaster@ccmp.nifty.com
+_dmarc.ntt.com | 0 | 0 | v=DMARC1; p=quarantine; sp=none; rua=mailto:nttcom00001-ra@dmarc25.jp
+_dmarc.gmail.com | 0 | 0 | v=DMARC1; p=none; sp=quarantine; rua=mailto:mailauth-reports@google.com
+_dmarc.yahoo.com | 0 | 0 | v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+_dmarc.outlook.com | 0 | 1 | v=DMARC1; p=none; sp=quarantine; pct=100; rua=mailto:rua@dmarc.microsoft; ruf=mailto:ruf@dmarc.microsoft; fo=1
+_dmarc.icloud.com | 0 | 0 | v=DMARC1; p=quarantine; sp=quarantine; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com
+_dmarc.ietf.org | 0 | 1 | v=DMARC1; p=none; rua=mailto:dmarc_agg@vali.email,mailto:dmarc-report@ietf.org
+_dmarc.ac-5.net | 0 | 0 | v=DMARC1; p=none; rua=mailto:92b222207570426e8bd0edd0abad1196@dmarc-reports.cloudflare.net
+_dmarc.com | 3 | 0 |
+_dmarc.rua.agari.com | 3 | 0 |
+_dmarc.agari.com | 0 | 0 | v=DMARC1; p=reject; sp=reject; fo=1; ri=3600; rua=mailto:agari-data@rua.agari.com; ruf=mailto:agari-data@ruf.agari.com
+apple.com._report._dmarc.rua.agari.com | 0 | 0 | v=DMARC1;
+_dmarc.ruf.agari.com | 3 | 0 |
+apple.com._report._dmarc.ruf.agari.com | 0 | 0 | v=DMARC1;
+_dmarc.dmarc.amazon.com | 3 | 0 |
+_dmarc.dmarc-reports.cloudflare.net | 0 | 1 |
+_dmarc.cloudflare.net | 0 | 1 | v=DMARC1; p=reject; pct=100;rua=mailto:cloudflare@dmarc.area1reports.com; ruf=mailto:cloudflare@dmarc.area1reports.com
+_dmarc.net | 3 | 0 |
+cloudflare.com._report._dmarc.dmarc-reports.cloudflare.net | 0 | 1 | v=DMARC1;
+_dmarc.vali.email | 0 | 0 | v=DMARC1; p=reject; rua=mailto:dmarc_agg@vali.email;
+_dmarc.email | 3 | 0 |
+salesforce.com._report._dmarc.vali.email | 0 | 0 | v=DMARC1;
+_dmarc.inbox.ondmarc.com | 0 | 1 |
+_dmarc.ondmarc.com | 0 | 0 | v=DMARC1; p=reject; pct=100; sp=reject; rua=mailto:6301a309@inbox.ondmarc.com; ruf=mailto:6301a309@inbox.ondmarc.com; adkim=s; aspf=s; fo=1; rf=afrf; ri=3600
+salesforce.com._report._dmarc.inbox.ondmarc.com | 0 | 1 | v=DMARC1;
+_dmarc.us | 3 | 0 |
+_dmarc.emaildefense.proofpoint.com | 0 | 0 | v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;
+_dmarc.proofpoint.com | 0 | 0 | v=DMARC1; p=reject; sp=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+zoom.us._report._dmarc.emaildefense.proofpoint.com | 0 | 0 | v=DMARC1;
+slack.com._report._dmarc.vali.email | 0 | 0 | v=DMARC1;
+slack.com._report._dmarc.inbox.ondmarc.com | 0 | 1 | v=DMARC1;
+okta.com._report._dmarc.emaildefense.proofpoint.com | 0 | 0 | v=DMARC1;
+_dmarc.rua.easydmarc.asia | 0 | 0 |
+_dmarc.easydmarc.asia | 0 | 0 | v=DMARC1;p=reject;rua=mailto:3d6afa2b78@rua.easydmarc.com;ruf=mailto:3d6afa2b78@ruf.easydmarc.com;fo=1
+_dmarc.asia | 3 | 0 |
+cybozu.com._report._dmarc.rua.easydmarc.asia | 0 | 0 | v=DMARC1;
+_dmarc.co.jp | 3 | 0 |
+_dmarc.jp | 3 | 0 |
+_dmarc.dmarc25.jp | 0 | 0 | v=DMARC1; p=reject; adkim=r; aspf=r; rua=mailto:tf2500001-ra@dmarc25.jp,mailto:report@dmarc25.jp; ruf=mailto:tf2500001-rf@dmarc25.jp
+mufg.jp._report._dmarc.dmarc25.jp | 0 | 0 | v=DMARC1;
+_dmarc.dp.smtps.jp | 3 | 0 |
+_dmarc.smtps.jp | 0 | 0 | v=DMARC1; p=quarantine; sp=none; pct=100; rua=mailto:dm0mba2uq0c03.rua@dp.smtps.jp,mailto:dm0luulz2bx08.rua@sandbox-stage.dev.smtps.jp,mailto:dm0m9s48wjc0l.rua@te-stage.dev.smtps.jp
+mufg.jp._report._dmarc.dp.smtps.jp | 0 | 0 | v=DMARC1
+_dmarc.report.securemx.jp | 0 | 0 |
+_dmarc.securemx.jp | 0 | 0 | v=DMARC1; p=reject; np=reject; adkim=s; aspf=s; psd=n; rua=mailto:dmarc-rua@dmarc.iij.ad.jp
+smbc.co.jp._report._dmarc.report.securemx.jp | 0 | 0 | v=DMARC1
+_dmarc.rua.powerdmarc.com | 0 | 1 |
+_dmarc.powerdmarc.com | 0 | 0 | v=DMARC1; p=reject; rua=mailto:15r6gzki9a@rua.powerdmarc.com,mailto:dmarc@powerdmarc.com; ruf=mailto:15r6gzki9a@ruf.powerdmarc.com,mailto:dmarc@powerdmarc.com; fo=0:1:d:s;
+ana.co.jp._report._dmarc.rua.powerdmarc.com | 0 | 1 | v=DMARC1;
+_dmarc.ruf.powerdmarc.com | 0 | 1 |
+ana.co.jp._report._dmarc.ruf.powerdmarc.com | 0 | 1 | v=DMARC1;
+_dmarc.bmscore.jp | 0 | 0 |
+jal.co.jp._report._dmarc.bmscore.jp | 0 | 0 | v=DMARC1
+_dmarc.rx.rakuten.co.jp | 0 | 0 |
+_dmarc.ad.jp | 3 | 0 |
+sakura.ad.jp._report._dmarc.rua.powerdmarc.com | 0 | 1 | v=DMARC1;
+sakura.ad.jp._report._dmarc.ruf.powerdmarc.com | 0 | 1 | v=DMARC1;
+_dmarc.ne.jp | 3 | 0 |
+_dmarc.gp.biglobe.co.jp | 0 | 0 | v=DMARC1; p=quarantine; rua=mailto:dmarc-ra.pj@gp.biglobe.co.jp,mailto:biglobe00001-ra@dmarc25.jp
+_dmarc.biglobe.co.jp | 0 | 0 | v=DMARC1; p=quarantine; sp=reject; rua=mailto:dmarc-ra.pj@gp.biglobe.co.jp,mailto:biglobe00001-ra@dmarc25.jp
+biglobe.ne.jp._report._dmarc.gp.biglobe.co.jp | 0 | 0 | v=DMARC1;
+biglobe.ne.jp._report._dmarc.dmarc25.jp | 0 | 0 | v=DMARC1;
+_dmarc.me | 3 | 0 |
+_dmarc.linecorp.com | 0 | 0 | v=DMARC1; p=quarantine; rua=mailto:dl_lw_dmarc_report@linecorp.com
+line.me._report._dmarc.linecorp.com | 0 | 0 | v=DMARC1
+japanpost.jp._report._dmarc.rua.powerdmarc.com | 0 | 1 | v=DMARC1;
+kddi.com._report._dmarc.dmarc25.jp | 0 | 0 | v=DMARC1;
+_dmarc.ezweb.ne.jp | 0 | 0 | v=DMARC1; p=reject; rua=mailto:kddi00001-ra@dmarc25.jp, mailto:report_dmarc_rua.ez@ezweb.ne.jp
+kddi.com._report._dmarc.ezweb.ne.jp | 3 | 0 |
+mercari.com._report._dmarc.vali.email | 0 | 0 | v=DMARC1;
+moneyforward.com._report._dmarc.rua.powerdmarc.com | 0 | 1 | v=DMARC1;
+moneyforward.com._report._dmarc.ruf.powerdmarc.com | 0 | 1 | v=DMARC1;
+_dmarc.ccmp.nifty.com | 0 | 0 | v=DMARC1; p=none; pct=100; rua=mailto:postmaster@ccmp.nifty.com
+ntt.com._report._dmarc.dmarc25.jp | 0 | 0 | v=DMARC1;
+gmail.com._report._dmarc.google.com | 0 | 0 | v=DMARC1
+yahoo.com._report._dmarc.rua.agari.com | 0 | 0 | v=DMARC1;
+yahoo.com._report._dmarc.ruf.agari.com | 0 | 0 | v=DMARC1;
+_dmarc.dmarc.microsoft | 0 | 0 | v=DMARC1; p=reject; pct=100; rua=mailto:rua@dmarc.microsoft; ruf=mailto:ruf@dmarc.microsoft; fo=1
+_dmarc.microsoft | 3 | 0 |
+outlook.com._report._dmarc.dmarc.microsoft | 0 | 0 | v=DMARC1
+icloud.com._report._dmarc.rua.agari.com | 0 | 0 | v=DMARC1;
+icloud.com._report._dmarc.ruf.agari.com | 0 | 0 | v=DMARC1;
+_dmarc.org | 3 | 0 |
+ietf.org._report._dmarc.vali.email | 0 | 0 | v=DMARC1;
+ac-5.net._report._dmarc.dmarc-reports.cloudflare.net | 0 | 1 | v=DMARC1;
